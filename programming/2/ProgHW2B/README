@@ -1,0 +1,15 @@
+Meet-in-the-Middle AES Attack
+-----------------------------
+
+The attached source codes demonstrate the use of the libgcrypt library in C++ in
+implementing a meet-in-the-middle 2-AES attack. To run the code, open a terminal
+window, cd to this directory, and compile the source code using the command
+
+    g++ 2aes16bitDecryption.cpp -lgcrypt
+
+and run it by simply typing
+
+    ./a.out
+
+in the same terminal window. The secret plaintext should be output at the end of
+the program.
